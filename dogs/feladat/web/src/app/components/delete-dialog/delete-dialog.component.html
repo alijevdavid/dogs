@@ -1,0 +1,17 @@
+<div id="overlay">
+</div>
+
+<div id="centerpoint">
+    <div class = "whitebox d-flex flex-column rounded-4">
+        <p class="text-center">Are you sure, you want to delete this item?</p>
+        <div class="d-flex justify-content-around flex-col mt-3 mb-3">
+            <div class="p-2">
+                <button class="btn btn-outline-secondary" mat-button (click)="onCancelClick()" routerLink="list-view">Cancel</button>
+            </div>
+
+            <div class="p-2">
+                <button class="btn btn-outline-success" mat-button color="primary" (click)="onConfirmClick()" routerLink="list-view">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>

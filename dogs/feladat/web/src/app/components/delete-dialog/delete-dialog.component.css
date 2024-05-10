@@ -1,0 +1,31 @@
+#overlay{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.whitebox{
+    box-shadow: 5px 6px 6px #ccc;
+    border-radius: 5px;
+    background-color: white;
+
+    align-items: center;
+
+    position: relative;
+
+    width: 800px;
+    margin-left: -400px;
+
+    height: auto;
+    margin-top: -200px;
+}
+
+#centerpoint {
+    top: 50%;
+    left: 50%;
+    position: fixed;
+}
